@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box; 
+    color: white;
+    cursor: pointer;
+}
+body{
+    background-color: #9690ae}
+.header::before {
+    content: ""; /* Ensure that the pseudo-element has some content */
+    background-color: rgb(93, 58, 58);
+    opacity: 0.3;
+    position: absolute; /* Position it absolutely within the .header */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the .header */
+    height: 100%; /* Full height of the .header */
+    z-index: -1; /* Place it behind the content of the .header */
+}
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    margin-right: 55px;
+    margin-top: 15px;
+}
+ ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.5s ease;
+
+}
+ul li a:hover{
+    background-color: #0073cf;
+    transform: translateY(-5px);
+}
+.header .logo{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 27px;
+    font-family: cursive;
+}
+.header .logo span{
+    font-size: 24px;
+    color: orange;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/4121805.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*content-1*/
+.content-one{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    cursor: pointer;
+}
+.content-one h1{
+    font-family: 'Playpen Sans', cursive;
+    font-style: italic;
+    font-size: 59px;
+    font-weight: bold;
+}
+.content-one h1 span{
+    color: orangered;
+}
+.content-one h3 span{
+    color: orange;
+    font-size: 40px;
+}
+.content-one h3{
+    font-size:29px;
+}
+.content-one h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.content-one p{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+.content-one button{
+    height: 25px;
+    width: 130px;
+    color: black;
+    background-color: orange;
+    border: 2px black;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.content-one button:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transform: translateY(-5px);
+}
+/*social-media*/
+.social-media{
+    position: absolute;
+    left: 20%;
+    top: 75%;
+}
+.social-media i{
+    margin-right: 20px;
+    font-size: 32px;
+    transition: all 0.6s ease;
+}
+#one:hover{
+    background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+    transform: translateY(-5px);
+}
+#two:hover{
+    color:#5176c5;
+    transform: translateY(-5px);
+}
+#three:hover{
+    color: #0072b1;
+    transform: translateY(-5px);
+}
+#four:hover{
+    transform: translateY(-5px);
+}
+/*photo*/
+.photo{
+    position: absolute;
+    left: 20%;
+    top: 127%;
+    height: 562px;
+    width: 646px;
+    background-image: url("aman\ jiswar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+/*about-section*/
+.about-section{
+    position: absolute;
+    left: 55%;
+    top: 125%;   
+    width: 450px;
+}
+.about-section h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    color:#F9F6EE;
+}
+.about-section h1 span{
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-section h3{
+    font-size: 20px;
+
+}
+.about-section h3 span{
+    color: orange;
+}
+.about-section p{
+    line-height: 25px;
+    font-size: 19px;
+}
+/*h1-project*/
+.h1-projects{
+    position: absolute;
+    top:230% ;
+    left: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(72, 10, 10);
+}
+/*project*/
+.project{
+    position: absolute;
+    top: 240%;
+    left: 20%;
+    display: flex;
+}
+.project img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    margin-right: 60px;
+}
+.project img:hover{
+    transform: translateY(-7px);
+}
+/* .project .trvel-projects:hover{
+    transform: translateY(-10px);
+}
+.project .Calculator-projects{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;  
+    margin-left: 60px; 
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+.project .Calculator-projects:hover{
+    transform: translateY(-10px);
+}
+.project .food{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;  
+    margin-left: 80px; 
+    transition: all 0.5s ease;
+}
+.project .food:hover{
+    transform: translateY(-10px);
+} */
+/*skills*/
+.skills{
+    position: absolute;
+    top: 300%;
+    left: 25%;
+}
+.skills h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: #3c144b;
+}
+
+.skills .html{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #5176c5;
+    color: white;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+.skills .html:hover{
+    background-color: #fa7e1e;
+    transform: translateY(-10px);
+}
+.skills .html p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+#html-logo{
+    font-size: 29px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.skills .css{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #5176c5;
+    color: white;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+.skills .css:hover{
+    background-color: #fa7e1e;
+    transform: translateY(-10px);
+}
+#css-logo{
+    font-size: 29px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.skills .css p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.skills .js{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #5176c5;
+    color: white;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+.skills .js:hover{
+    background-color: #fa7e1e;
+    transform: translateY(-10px);
+}
+#js-logo{
+    font-size: 29px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.skills .js p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.skill-container{
+    display: flex;
+}
+/*contact*/
+.contact{
+    position: absolute;
+    top: 400%;
+    left: 20%;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-one{
+    height: 300px;
+    width: 200px;
+    margin-right: 200px;
+}
+.contact-one h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.contact-one p{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.adderess{
+    height: 300px;
+    width: 400px;   
+}
+#tele{
+    font-size: 25px;
+    color: orange;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+#phone{
+    font-size: 25px;
+    color: orange;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.social-media-one i{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.adderess .text{
+    height: 30px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+::placeholder{
+    color: rgb(55, 55, 55);
+}
+.adderess .text-one{
+    height: 100px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: grey;
+    margin-bottom: 15px;
+}
+.adderess button{
+    height: 30px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: orange;
+    color: black;
+    transition: all 0.5s ease;
+}
+.adderess button:hover{
+    background-color: white;
+    border: 1px solid black;
+    transform: translateY(-10px);
+}
+/*footer*/
+.footer{
+    position: absolute;
+    top: 450%;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(34, 34, 34);
+    align-items: center;
+}
+.footer p{
+    margin-left: 40%;
+}
