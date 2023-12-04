@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>port folio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">PORT<span>FOLIO..</span></a>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT EDUCATION</a></li>
+            <li><a href="#PROJECTS">SOURCE PROJECTS</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+    </header>
+    <div class="content-one" id="home">
+        <h3><span>HELLO  EVERYONE,</span> I'm</h3>
+        <h1> Aman  <span>Jaiswar</span></h1>
+        <h2>software <span>developper</span></h2>
+        <p>This is my official website to show all details and work<br> experiences of web development</p><br>
+        <button>DOWNLOAD CV</button>
+    </div>
+    <div class="social-media">
+        <i class="fa-brands fa-instagram" id="one"></i>
+        <i class="fa-brands fa-facebook" id="two"></i>
+        <i class="fa-brands fa-linkedin" id="three"></i>
+        <i class="fa-brands fa-github" id="four"></i>
+    </div>
+    <div class="photo"></div>
+    <div class="about-section" id="about">
+        <h1>ABOUT ME<span>!!</span></h1>
+        <h3>Hi, I am <span>Aman Jaiswar</span></h3><br><br>
+        <p>I am B.tech second year student of branch CSE(Ds)..I am from Gzb.</p><br>
+        <p> I work as a web developer. I makes new websites which are easy to use and can be accessed by anyone. I think that people should look at the bigger picture when they are building something. I love to work in groups where everyone can voice their opinions and ideas Designs, writes, and edits website content  I loves to create and beautify websites. I makes new websites which are easy to use and can be accessed by anyone</p>
+        <br><p>I am specialised in HTML CSS and JAVASCRIPT and apart from web development I have work on C and C++.</p>
+        <!-- <a href="/travel/index.html" class="abc">hfvvfvf</a> -->
+        <!-- <img src="C:\Users\ASUS\OneDrive\Desktop\aman jiswar.jpg"> -->
+    </div>
+    <i><h1 class="h1-projects" id="PROJECTS"> SOURCE  PROJECTS..</h1></i><br>
+    <div class="project">
+        <a href="#"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/49275860369635.5a4a90510858a.jpg" class="Food_projects"></a>
+        <a href="#"><img src="https://www.section.io/engineering-education/building-a-calculator-a-javascript-project-for-beginners/hero.jpg" class=" Calculator_projects"> </a>
+        <a href="#"><img src="https://www.cnppid.com/wp-content/uploads/2015/07/NRCS-group-at-Kingsley-July-2015.jpg" class="tour"></a>
+    </div>
+    <div class="skills" id="skills">
+        <h1>MY SKILLS</h1>
+        <div class="skill-container">
+            <div class="html">
+                <i class="fa-brands fa-html5" id="html-logo"></i><br>
+                <p>HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables</p>
+            </div>
+            <div class="css">
+                <i class="fa-brands fa-css3-alt" id="css-logo"></i>
+                <p>CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files (. css).</p>
+            </div>
+            <div class="js">
+                <i class="fa-brands fa-js" id="js-logo"></i>
+                <p>JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="CONTACT">
+        <div class="contact-container">
+            <div class="contact-one">
+                <h1>CONTACT</h1>
+                <i class="fa-brands fa-telegram" id="tele"></i>
+                <p>amanjaiswar106@gmail.com</p><br>
+                <i class="fa-solid fa-phone" id="phone"></i>
+                <p>9373069678</p>
+                <div class="social-media-one">
+                    <i class="fa-brands fa-instagram" id="one"></i>
+                    <i class="fa-brands fa-facebook" id="two"></i>
+                    <i class="fa-brands fa-linkedin" id="three"></i>
+                    <i class="fa-brands fa-github" id="four"></i>
+                </div>
+            </div>
+            <div class="adderess">
+                <input type="text" placeholder="Your Name" class="text">
+                <input type="text" placeholder="Your Email" class="text">
+                <input type="text" placeholder="Your Message" class="text-one">
+                <button>Submit</button>
+                <a href="#">Forget Email?</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer"><p>&copy; made with &#9829; by Aman Jaiswar</p></footer>
+</body>
+</html>
